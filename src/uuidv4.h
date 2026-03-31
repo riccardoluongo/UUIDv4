@@ -1,6 +1,5 @@
 #include <stdint.h>
 #include <sys/random.h>
-#include <stdint.h>
 #include <stdio.h>
 
 // 128 bits to store the UUID in numerical form
