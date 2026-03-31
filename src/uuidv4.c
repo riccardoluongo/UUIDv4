@@ -1,7 +1,7 @@
 #include "uuidv4.h"
 
 // Generate a UUIDv4 and store it as a string inside BUF as per RFC 9562
-// BUF must be at least 36 bytes wide, and at most 36 bytes will be written
+// BUF must be at least 37 bytes wide, and at most 37 bytes will be written
 // Return a pointer to BUF on success or NULL on failure
 char * uuidv4_gen(char *buf){
     uuid_t uuid;
