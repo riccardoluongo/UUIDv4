@@ -6,3 +6,5 @@
 typedef struct {
     uint64_t high, low;
 } uuid_t;
+
+char * uuidv4_gen(char *buf);
